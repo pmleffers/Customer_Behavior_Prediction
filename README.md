@@ -2,7 +2,6 @@
 Repository space for my second springboard capstone project
 
 [Exploratory Data Analysis and Customer Behavior Prediction Metrics](https://nbviewer.jupyter.org/github/pmleffers/Customer_Behavior_Prediction/blob/master/Customer_Behavior_Prediction_EDA_Metrics.ipynb)
-### Summary
 **Exploratory Data Analysis**
 After exploring and investigating each column of the dataset independently I find some valuable insights about 1 or two of those columns. Namely discovering the unexpected behavior regarding the 'Amount' and 'Sales Price' columns and their effect on one another. I found that these two important columns have non-normally distributed data and seem to have an unclear relationship. After investigating that relationship I surmise that the 'Sales Price' column is probably the total transaction price as opposed to the price per unit. Using this assumption would explain the relationship between 'Amount' and 'Sales Price'. After further exploring the data by performing some statistical tests on the data I provide some valuable business metrics based on cohort analysis.
 
